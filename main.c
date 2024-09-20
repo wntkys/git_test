@@ -3,8 +3,8 @@
 int main()
 {
     puts("Введите пожалуйста два числа, а я выведу вам сумму");
-    float a, b;
-    scanf("%f %f", &a, &b);
-    printf("%f\n", a + b);
+    double a, b;
+    scanf("%lf %lf", &a, &b);
+    printf("%lf\n", a + b);
     return 0;
 }
